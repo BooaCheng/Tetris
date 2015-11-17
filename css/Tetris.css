@@ -1,0 +1,186 @@
+#outer{
+position: relative;
+left:1%;	
+width: 295px;
+height: 600px;
+border: #000000 2px solid;
+
+}
+#inner{
+position: absolute;
+top:1%;
+left:2%;
+width: 93.8%;
+height: 80%;
+border: #0000ff 2px solid;
+
+}
+#control{
+	position: relative;
+	top:82%;
+	left:2%;
+  width: 93.8%;
+  height: 15%;	
+  border: #00ff00 2px solid;	
+}
+#buttonChange{
+	position: absolute;
+	width: 20%;
+	height: 85%;	
+	top:4%;
+	left:2%;
+	background-color: #ff0000;
+	border-radius: 75px;
+}
+#buttonChange:active{
+	position: absolute;
+	width: 20%;
+	height: 85%;	
+	top:4%;
+	left:2%;
+	background-color: #00ff00;
+	border-radius: 75px;
+}
+#buttonStart{
+	position: absolute;
+	top:76%;
+	left:88%;
+	
+	background-color: #ff0000;
+}
+#buttonRight{
+	position: absolute;
+	top:45%;
+	left:72%;
+	border-top: 20px solid white;
+    border-left: 40px solid #ff0000;
+    border-bottom: 20px solid white;
+
+}
+#buttonRight:active{
+	position: absolute;
+	top:45%;
+	left:72%;
+	border-top: 20px solid white;
+    border-left: 40px solid #00ff00;
+    border-bottom: 20px solid white;
+}
+#buttonLeft{
+	position: absolute;
+	top:45%;
+	left:28%;
+	border-top: 20px solid white;
+    border-right: 40px solid #ff0000;
+    border-bottom: 20px solid white;
+    display: inline-block;
+}
+#buttonLeft:active{
+	position: absolute;
+	top:45%;
+	left:28%;
+	border-top: 20px solid white;
+    border-right: 40px solid #00ff00;
+    border-bottom: 20px solid white;
+    display: inline-block;
+}
+#buttonDown{
+	
+	position: absolute;
+	top:45%;
+	left:50%;
+	border-top: 40px solid #ff0000;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    
+    display: inline-block;
+	
+}
+#buttonDown:active{
+	
+	position: absolute;
+	top:45%;
+	left:50%;
+	border-top: 40px solid #00ff00;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    
+    display: inline-block;
+	
+}
+.backBlock{
+	width: 23px;
+	height: 22px;
+	overflow: hidden;
+	float: left;
+	border: #d3d3d3 1px solid;	
+}
+.chosen {
+	width: 23px;
+	height: 22px;
+	overflow: hidden;
+	float: left;
+	border: #d3d3d3 1px solid;	
+	background-color: #ff0000;
+}
+.fixed {
+	width: 23px;
+	height: 22px;
+	overflow: hidden;
+	float: left;
+	border: #d3d3d3 1px solid;	
+	background-color: #000000;
+}
+#scoreBlock{
+    font-size:10px;
+	width: 70px;
+	height: 25px;
+	top:4%;
+	left:25%;	
+	 position: absolute;
+    border: #000000 1px solid;	
+    overflow: hidden;
+    display: inline-block;
+}
+#levelBlock{
+    font-size:10px;
+	width: 70px;
+	height: 25px;
+	top:4%;
+	left:53%;	
+    position: absolute;
+    border: #000000 1px solid;
+    overflow: hidden;	
+    display: inline-block;
+}
+#levelOut{
+	display: inline;
+	padding-right: 5px;
+	text-align: right;
+	left:43%;
+	top:0%;
+	width: 56%;
+	height: 100%;
+    position: absolute;
+    background-color: #d3d3d3;
+}
+#scoreOut{
+	display: inline;
+	padding-right: 5px;
+	text-align: right;
+	left:43%;
+	top:0%;
+	width: 56%;
+	height: 100%;
+    position: absolute;
+    background-color: #d3d3d3;
+    
+}
+#countBlock output{
+	width: 45px;
+	height: 50px;
+	top:4%;
+	left:85%;	
+    position: absolute;
+    background-color: #d3d3d3;
+    display: none;
+}
