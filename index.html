@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -8,44 +8,19 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-<link href="css/Tetris.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
 <script src="scripts/jquery-1.6.2.min.js"></script>
-<script src="scripts/Tetris.js"></script>
+
 </head>
 <body>
-    <div id="outer">
-    	<div id="inner">
-    		
-    	</div>	
-    	<div id="control">
-    		<input type="button" id="buttonStart" value="Start"/>
-            <div  id="scoreBlock">
-                Score:
-                <ul>
-                     <li id="scoreOut">
-                      0   
-                     </li>
-                </ul> 
-            </div>
-            <div  id="levelBlock">
-                level:
-                <ul>
-                     <li id="levelOut">
-                      0   
-                     </li>
-                </ul> 
-            </div>
-    		<div id="buttonLeft" ></div>
-    		<div id="buttonRight" ></div>
-            <div id="buttonDown" ></div>
-            <input type="button" id="buttonChange" />
-            <div  id="countBlock">
-                <output>
-                    
-                </output>
-            </div>
-		</div>
-    </div>
+    <div id="title">
+        Tetris
+    </div> 
+    <div id="background">
+    </div> 
+    <div>
+        <a href="start.html"><input type="button" value="Start Game" id="goButton" /></a>
+    </div>     
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
 </body>
